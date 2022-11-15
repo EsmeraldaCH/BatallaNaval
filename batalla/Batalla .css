@@ -1,0 +1,43 @@
+body{
+    font-family: modern love;
+    background-color: rgb(153,102,153);
+    color:white;
+    text-align: center;
+}
+#board{
+    width: 300px;
+    height: 300px;
+}
+.myRow{
+    width: 300px;
+    height: 30px;
+}
+.grid{
+    width: 30px;
+    height: 30px;
+    border: black 0.5px solid;
+    display: inline-block
+}
+.position{
+    display: inline-block;
+}
+.horizontal{
+    width: 35px;
+    height: 15px;
+    border: black 0.5px solid;
+}
+.vertical{
+    width: 15px;
+    height: 35px;
+    border: black 0.5px solid;
+    margin-top: 5px;
+}
+.selected{
+    background-color: #FFFFFF;
+}
+.hit{
+    background-color: red;
+}
+.miss{
+    background-color: gray;
+}
